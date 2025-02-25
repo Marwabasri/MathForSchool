@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MatematikaSeru - Belajar Matematika Jadi Menyenangkan</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans">
+    <!-- Navbar Sticky -->
+    <nav class="bg-[#fff4e3] shadow-lg fixed w-full z-50 top-0 left-0">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <div class="text-3xl font-bold text-blue-600">
+                        <img src="/src/img/logo.svg" class="h-8"/>
+                    </div>
+                    <div class="ml-2 text-xl font-bold text-gray-800">MathForSchool</div>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button type="button" class="text-gray-600 hover:text-gray-900 focus:outline-none" id="mobile-menu-button">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-4">
+                    <a href="/index.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md">Beranda</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md">Materi</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md">Latihan</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md">Tentang</a>
+                </div>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="hidden md:hidden" id="mobile-menu">
+                <div class="px-2 pt-2 pb-3 space-y-1">
+                    <a href="#" class="block text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md">Beranda</a>
+                    <a href="#" class="block text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md">Materi</a>
+                    <a href="#" class="block text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md">Latihan</a>
+                    <a href="#" class="block text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md">Tentang</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-24 bg-[#2a4674]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 py-10">
+            <div class="text-center sm:flex sm:items-center">
+                <div class="sm:text-start sm:w-7/12">
+                    <h1 class="text-4xl sm:text-6xl font-bold text-[#ffc544] mb-4">
+                        MATEMATIKA FASE D
+                    </h1>
+                    <p class="text-lg sm:text-xl text-white mb-8">
+                         Selamat datang di website belajar matematika untuk peserta didik hebat seluruh indonesia
+                    </p>
+                    <button class="bg-[#ffc544] text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition duration-200">
+                        Selamat Belajar
+                    </button>
+                </div>
+                <div class="flex justify-center">
+                    <img src="/src/img/hero7.svg" alt="Math Illustration" class="">
+                </div>
+        </div>
+    </section>
+
+    <!-- Card Section -->
+    <section class="py-20 bg-[#ffc544]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-12">MATERI PEMBELAJARAN MATEMATIKA</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div
+                class="w-64 bg-white shadow-[0px_0px_15px_rgba(0,0,0,0.09)] p-9 space-y-3 relative overflow-hidden"
+                >
+                <div class="w-24 h-24 bg-violet-500 rounded-full absolute -right-5 -top-7">
+                    <p class="absolute bottom-6 left-7 text-white text-2xl">01</p>
+                </div>
+                <div class="fill-violet-500 w-12">
+                    <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    id="Layer_1"
+                    data-name="Layer 1"
+                    viewBox="0 0 24 24"
+                    >
+                    <path
+                        d="m24,6.928v13.072h-11.5v3h5v1H6.5v-1h5v-3H0V4.5c0-1.379,1.122-2.5,2.5-2.5h12.98c-.253.295-.54.631-.856,1H2.5c-.827,0-1.5.673-1.5,1.5v14.5h22v-10.993l1-1.079Zm-12.749,3.094C19.058.891,19.093.855,19.11.838c1.118-1.115,2.936-1.113,4.052.002,1.114,1.117,1.114,2.936,0,4.052l-8.185,8.828c-.116,1.826-1.623,3.281-3.478,3.281h-5.59l.097-.582c.043-.257,1.086-6.16,5.244-6.396Zm2.749,3.478c0-1.379-1.122-2.5-2.5-2.5-2.834,0-4.018,3.569-4.378,5h4.378c1.378,0,2.5-1.121,2.5-2.5Zm.814-1.073l2.066-2.229c-.332-1.186-1.371-2.057-2.606-2.172-.641.749-1.261,1.475-1.817,2.125,1.117.321,1.998,1.176,2.357,2.277Zm.208-5.276c1.162.313,2.125,1.134,2.617,2.229l4.803-5.18c.737-.741.737-1.925.012-2.653-.724-.725-1.908-.727-2.637,0-.069.08-2.435,2.846-4.795,5.606Z"
+                    ></path>
+                    </svg>
+                </div>
+                <h1 class="font-bold text-xl">Aritmatika</h1>
+                <p class="text-sm text-zinc-500 leading-6">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse fuga
+                    adipisicing elit
+                </p>
+                </div>
+
+                <!-- Card 2 -->
+                <div
+                class="w-64 bg-white shadow-[0px_0px_15px_rgba(0,0,0,0.09)] p-9 space-y-3 relative overflow-hidden"
+                >
+                <div class="w-24 h-24 bg-violet-500 rounded-full absolute -right-5 -top-7">
+                    <p class="absolute bottom-6 left-7 text-white text-2xl">02</p>
+                </div>
+                <div class="fill-violet-500 w-12">
+                    <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    id="Layer_1"
+                    data-name="Layer 1"
+                    viewBox="0 0 24 24"
+                    >
+                    <path
+                        d="m24,6.928v13.072h-11.5v3h5v1H6.5v-1h5v-3H0V4.5c0-1.379,1.122-2.5,2.5-2.5h12.98c-.253.295-.54.631-.856,1H2.5c-.827,0-1.5.673-1.5,1.5v14.5h22v-10.993l1-1.079Zm-12.749,3.094C19.058.891,19.093.855,19.11.838c1.118-1.115,2.936-1.113,4.052.002,1.114,1.117,1.114,2.936,0,4.052l-8.185,8.828c-.116,1.826-1.623,3.281-3.478,3.281h-5.59l.097-.582c.043-.257,1.086-6.16,5.244-6.396Zm2.749,3.478c0-1.379-1.122-2.5-2.5-2.5-2.834,0-4.018,3.569-4.378,5h4.378c1.378,0,2.5-1.121,2.5-2.5Zm.814-1.073l2.066-2.229c-.332-1.186-1.371-2.057-2.606-2.172-.641.749-1.261,1.475-1.817,2.125,1.117.321,1.998,1.176,2.357,2.277Zm.208-5.276c1.162.313,2.125,1.134,2.617,2.229l4.803-5.18c.737-.741.737-1.925.012-2.653-.724-.725-1.908-.727-2.637,0-.069.08-2.435,2.846-4.795,5.606Z"
+                    ></path>
+                    </svg>
+                </div>
+                <h1 class="font-bold text-xl">Aritmatika</h1>
+                <p class="text-sm text-zinc-500 leading-6">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse fuga
+                    adipisicing elit
+                </p>
+                </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">MatematikaSeru</h3>
+                    <p class="text-gray-400">Membuat belajar matematika menjadi pengalaman yang menyenangkan untuk semua.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Tautan</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Beranda</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Materi</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Latihan</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Tentang</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Kontak</h3>
+                    <ul class="space-y-2">
+                        <li class="text-gray-400">Email: info@matematikaseru.com</li>
+                        <li class="text-gray-400">Telepon: (021) 1234-5678</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
+                <p>&copy; 2024 MatematikaSeru. Hak Cipta Dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Toggle mobile menu
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (event) => {
+            if (!mobileMenuButton.contains(event.target) && !mobileMenu.contains(event.target)) {
+                mobileMenu.classList.add('hidden');
+            }
+        });
+    </script>
+</body>
+</html>
